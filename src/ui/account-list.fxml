@@ -4,7 +4,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
@@ -25,12 +24,9 @@
             <Font size="28.0" />
          </font>
       </Label>
-      <ImageView fitHeight="85.0" fitWidth="77.0" layoutX="450.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../Downloads/dd2uhrq-b5e3f22c-7dbc-40e6-ad31-8d0f365ddd08.png" />
-         </image></ImageView>
+      <ImageView fx:id="photo" fitHeight="85.0" fitWidth="77.0" layoutX="450.0" pickOnBounds="true" preserveRatio="true" />
       <Button layoutX="534.0" layoutY="23.0" mnemonicParsing="false" onAction="#logOut" text="Log out" />
-      <Label layoutX="330.0" layoutY="5.0" text="Jesus David">
+      <Label fx:id="userName" layoutX="330.0" layoutY="5.0" text="Jesus David">
          <font>
             <Font size="24.0" />
          </font></Label>

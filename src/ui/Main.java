@@ -24,7 +24,7 @@ public class Main extends Application{
 		primaryStage.setTitle("Classroom");
 		primaryStage.show();
 		
-		
+		controller.firstWindow();
 		
 	}
 	

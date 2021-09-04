@@ -18,7 +18,7 @@
       </Label>
       <Label layoutX="227.0" layoutY="149.0" text="Usernamer" />
       <Label layoutX="227.0" layoutY="231.0" text="Password" />
-      <TextField layoutX="295.0" layoutY="145.0" />
-      <PasswordField layoutX="295.0" layoutY="227.0" />
+      <TextField fx:id="logInName" layoutX="295.0" layoutY="145.0" />
+      <PasswordField fx:id="LogInPass" layoutX="295.0" layoutY="227.0" />
    </children>
 </Pane>
