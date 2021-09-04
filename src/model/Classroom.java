@@ -9,7 +9,6 @@ public class Classroom {
 
 	public Classroom() {
 		users = new ArrayList <UserAccount>();
-		
 	}
 	
 	public boolean add(String username, String password, String photo, String gender, String carrer, String birthday,
